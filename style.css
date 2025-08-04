@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #a416dc;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.todo-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 70%;
+  padding: 8px;
+}
+
+button {
+  padding: 8px 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 6px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  cursor: pointer;
+  color: red;
+}
+
